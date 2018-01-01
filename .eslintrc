@@ -1,0 +1,6 @@
+{
+    "extends": "eslint-config-hapi",
+    "rules": {
+        "hapi/hapi-scope-start": [0]
+    }
+}

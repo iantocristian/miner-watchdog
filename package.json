@@ -1,0 +1,25 @@
+{
+  "name": "miner-watchdog",
+  "version": "1.0.0",
+  "description": "Miner watchdog",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "lab -a code -L"
+  },
+  "repository": {
+    "url": "git://github.com/iantocristian/miner-watchdog.git"
+  },
+  "devDependencies": {
+    "lab": "14.x.x"
+  },
+  "dependencies": {
+    "ansi-escape-sequences": "^4.0.0",
+    "async": "^2.6.0",
+    "commander": "^2.12.2",
+    "split": "^1.0.1"
+  },
+  "bin": {
+    "watchdog": "./bin/watchdog"
+  },
+  "license": "MIT"
+}
